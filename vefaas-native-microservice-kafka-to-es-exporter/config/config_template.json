@@ -1,0 +1,21 @@
+{
+  "kafka": {
+    "bootstrap.servers": "127.0.0.1:8092",
+    "security.protocol": "SASL_PLAINTEXT",
+    "debug": false,
+    "topics": "my-topic",
+    "consumer.group.id": "test",
+    "sasl": {
+      "enabled": false,
+      "mechanism": "PLAIN",
+      "username": "test-user",
+      "password": "test-password"
+    }
+  },
+  "elasticsearch": {
+    "host": "127.0.0.1:9200",
+    "username": "test-user",
+    "password": "test-password",
+    "index": "test-index"
+  }
+}

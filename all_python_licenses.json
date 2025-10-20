@@ -1,0 +1,662 @@
+{
+  "directories": {
+    "vefaas-native-python3.8-default": [
+      {
+        "License": "MIT License",
+        "Name": "PyYAML",
+        "Version": "6.0.2"
+      },
+      {
+        "License": "MIT License",
+        "Name": "annotated-types",
+        "Version": "0.7.0"
+      },
+      {
+        "License": "MIT License",
+        "Name": "anyio",
+        "Version": "4.4.0"
+      },
+      {
+        "License": "BSD License",
+        "Name": "click",
+        "Version": "8.1.7"
+      },
+      {
+        "License": "MIT License",
+        "Name": "exceptiongroup",
+        "Version": "1.2.2"
+      },
+      {
+        "License": "MIT License",
+        "Name": "fastapi",
+        "Version": "0.112.2"
+      },
+      {
+        "License": "MIT License",
+        "Name": "h11",
+        "Version": "0.14.0"
+      },
+      {
+        "License": "MIT License",
+        "Name": "httptools",
+        "Version": "0.6.1"
+      },
+      {
+        "License": "BSD License",
+        "Name": "idna",
+        "Version": "3.8"
+      },
+      {
+        "License": "MIT License",
+        "Name": "pydantic",
+        "Version": "2.8.2"
+      },
+      {
+        "License": "MIT License",
+        "Name": "pydantic_core",
+        "Version": "2.20.1"
+      },
+      {
+        "License": "BSD License",
+        "Name": "python-dotenv",
+        "Version": "1.0.1"
+      },
+      {
+        "License": "Apache Software License; MIT License",
+        "Name": "sniffio",
+        "Version": "1.3.1"
+      },
+      {
+        "License": "BSD License",
+        "Name": "starlette",
+        "Version": "0.38.2"
+      },
+      {
+        "License": "Python Software Foundation License",
+        "Name": "typing_extensions",
+        "Version": "4.12.2"
+      },
+      {
+        "License": "BSD License",
+        "Name": "uvicorn",
+        "Version": "0.30.6"
+      },
+      {
+        "License": "Apache Software License; MIT License",
+        "Name": "uvloop",
+        "Version": "0.20.0"
+      },
+      {
+        "License": "MIT License",
+        "Name": "watchfiles",
+        "Version": "0.24.0"
+      },
+      {
+        "License": "BSD License",
+        "Name": "websockets",
+        "Version": "13.0.1"
+      }
+    ],
+    "vefaas-native-python3.9-default": [
+      {
+        "License": "MIT License",
+        "Name": "PyYAML",
+        "Version": "6.0.2"
+      },
+      {
+        "License": "MIT License",
+        "Name": "annotated-types",
+        "Version": "0.7.0"
+      },
+      {
+        "License": "MIT License",
+        "Name": "anyio",
+        "Version": "4.4.0"
+      },
+      {
+        "License": "MIT License",
+        "Name": "anyio",
+        "Version": "4.6.2.post1"
+      },
+      {
+        "License": "BSD License",
+        "Name": "click",
+        "Version": "8.1.7"
+      },
+      {
+        "License": "MIT License",
+        "Name": "exceptiongroup",
+        "Version": "1.2.2"
+      },
+      {
+        "License": "MIT License",
+        "Name": "fastapi",
+        "Version": "0.112.1"
+      },
+      {
+        "License": "MIT License",
+        "Name": "fastapi",
+        "Version": "0.115.5"
+      },
+      {
+        "License": "MIT License",
+        "Name": "h11",
+        "Version": "0.14.0"
+      },
+      {
+        "License": "MIT License",
+        "Name": "httptools",
+        "Version": "0.6.1"
+      },
+      {
+        "License": "MIT License",
+        "Name": "httptools",
+        "Version": "0.6.4"
+      },
+      {
+        "License": "BSD License",
+        "Name": "idna",
+        "Version": "3.10"
+      },
+      {
+        "License": "BSD License",
+        "Name": "idna",
+        "Version": "3.7"
+      },
+      {
+        "License": "MIT License",
+        "Name": "pydantic",
+        "Version": "2.10.1"
+      },
+      {
+        "License": "MIT License",
+        "Name": "pydantic",
+        "Version": "2.8.2"
+      },
+      {
+        "License": "MIT License",
+        "Name": "pydantic_core",
+        "Version": "2.20.1"
+      },
+      {
+        "License": "MIT License",
+        "Name": "pydantic_core",
+        "Version": "2.27.1"
+      },
+      {
+        "License": "BSD License",
+        "Name": "python-dotenv",
+        "Version": "1.0.1"
+      },
+      {
+        "License": "Apache Software License; MIT License",
+        "Name": "sniffio",
+        "Version": "1.3.1"
+      },
+      {
+        "License": "BSD License",
+        "Name": "starlette",
+        "Version": "0.38.2"
+      },
+      {
+        "License": "BSD License",
+        "Name": "starlette",
+        "Version": "0.41.2"
+      },
+      {
+        "License": "Python Software Foundation License",
+        "Name": "typing_extensions",
+        "Version": "4.12.2"
+      },
+      {
+        "License": "BSD License",
+        "Name": "uvicorn",
+        "Version": "0.30.6"
+      },
+      {
+        "License": "BSD License",
+        "Name": "uvicorn",
+        "Version": "0.32.0"
+      },
+      {
+        "License": "Apache Software License; MIT License",
+        "Name": "uvloop",
+        "Version": "0.20.0"
+      },
+      {
+        "License": "Apache Software License; MIT License",
+        "Name": "uvloop",
+        "Version": "0.21.0"
+      },
+      {
+        "License": "MIT License",
+        "Name": "watchfiles",
+        "Version": "0.23.0"
+      },
+      {
+        "License": "MIT License",
+        "Name": "watchfiles",
+        "Version": "0.24.0"
+      },
+      {
+        "License": "BSD License",
+        "Name": "websockets",
+        "Version": "12.0"
+      },
+      {
+        "License": "BSD License",
+        "Name": "websockets",
+        "Version": "13.0"
+      },
+      {
+        "License": "BSD License",
+        "Name": "websockets",
+        "Version": "14.1"
+      }
+    ],
+    "vefaas-native-python3.10-default": [
+      {
+        "License": "MIT License",
+        "Name": "PyYAML",
+        "Version": "6.0.2"
+      },
+      {
+        "License": "MIT License",
+        "Name": "annotated-types",
+        "Version": "0.7.0"
+      },
+      {
+        "License": "MIT License",
+        "Name": "anyio",
+        "Version": "4.6.2.post1"
+      },
+      {
+        "License": "MIT License",
+        "Name": "anyio",
+        "Version": "4.8.0"
+      },
+      {
+        "License": "BSD License",
+        "Name": "click",
+        "Version": "8.1.7"
+      },
+      {
+        "License": "BSD License",
+        "Name": "click",
+        "Version": "8.1.8"
+      },
+      {
+        "License": "MIT License",
+        "Name": "exceptiongroup",
+        "Version": "1.2.2"
+      },
+      {
+        "License": "MIT License",
+        "Name": "fastapi",
+        "Version": "0.115.11"
+      },
+      {
+        "License": "MIT License",
+        "Name": "fastapi",
+        "Version": "0.115.5"
+      },
+      {
+        "License": "MIT License",
+        "Name": "h11",
+        "Version": "0.14.0"
+      },
+      {
+        "License": "MIT License",
+        "Name": "httptools",
+        "Version": "0.6.4"
+      },
+      {
+        "License": "BSD License",
+        "Name": "idna",
+        "Version": "3.10"
+      },
+      {
+        "License": "MIT License",
+        "Name": "pydantic",
+        "Version": "2.10.1"
+      },
+      {
+        "License": "MIT License",
+        "Name": "pydantic",
+        "Version": "2.10.6"
+      },
+      {
+        "License": "MIT License",
+        "Name": "pydantic_core",
+        "Version": "2.27.1"
+      },
+      {
+        "License": "MIT License",
+        "Name": "pydantic_core",
+        "Version": "2.27.2"
+      },
+      {
+        "License": "BSD License",
+        "Name": "python-dotenv",
+        "Version": "1.0.1"
+      },
+      {
+        "License": "Apache Software License; MIT License",
+        "Name": "sniffio",
+        "Version": "1.3.1"
+      },
+      {
+        "License": "BSD License",
+        "Name": "starlette",
+        "Version": "0.41.2"
+      },
+      {
+        "License": "BSD License",
+        "Name": "starlette",
+        "Version": "0.46.0"
+      },
+      {
+        "License": "Python Software Foundation License",
+        "Name": "typing_extensions",
+        "Version": "4.12.2"
+      },
+      {
+        "License": "BSD License",
+        "Name": "uvicorn",
+        "Version": "0.32.0"
+      },
+      {
+        "License": "BSD License",
+        "Name": "uvicorn",
+        "Version": "0.34.0"
+      },
+      {
+        "License": "Apache Software License; MIT License",
+        "Name": "uvloop",
+        "Version": "0.21.0"
+      },
+      {
+        "License": "MIT License",
+        "Name": "watchfiles",
+        "Version": "0.24.0"
+      },
+      {
+        "License": "MIT License",
+        "Name": "watchfiles",
+        "Version": "1.0.4"
+      },
+      {
+        "License": "BSD License",
+        "Name": "websockets",
+        "Version": "14.1"
+      },
+      {
+        "License": "BSD License",
+        "Name": "websockets",
+        "Version": "15.0"
+      }
+    ],
+    "vefaas-native-python3.12-default": [
+      {
+        "License": "MIT License",
+        "Name": "PyYAML",
+        "Version": "6.0.2"
+      },
+      {
+        "License": "MIT License",
+        "Name": "annotated-types",
+        "Version": "0.7.0"
+      },
+      {
+        "License": "MIT License",
+        "Name": "anyio",
+        "Version": "4.6.2.post1"
+      },
+      {
+        "License": "BSD License",
+        "Name": "click",
+        "Version": "8.1.7"
+      },
+      {
+        "License": "MIT License",
+        "Name": "fastapi",
+        "Version": "0.115.5"
+      },
+      {
+        "License": "MIT License",
+        "Name": "h11",
+        "Version": "0.14.0"
+      },
+      {
+        "License": "MIT License",
+        "Name": "httptools",
+        "Version": "0.6.4"
+      },
+      {
+        "License": "BSD License",
+        "Name": "idna",
+        "Version": "3.10"
+      },
+      {
+        "License": "MIT License",
+        "Name": "pydantic",
+        "Version": "2.10.1"
+      },
+      {
+        "License": "MIT License",
+        "Name": "pydantic_core",
+        "Version": "2.27.1"
+      },
+      {
+        "License": "BSD License",
+        "Name": "python-dotenv",
+        "Version": "1.0.1"
+      },
+      {
+        "License": "Apache Software License; MIT License",
+        "Name": "sniffio",
+        "Version": "1.3.1"
+      },
+      {
+        "License": "BSD License",
+        "Name": "starlette",
+        "Version": "0.41.2"
+      },
+      {
+        "License": "Python Software Foundation License",
+        "Name": "typing_extensions",
+        "Version": "4.12.2"
+      },
+      {
+        "License": "BSD License",
+        "Name": "uvicorn",
+        "Version": "0.32.0"
+      },
+      {
+        "License": "Apache Software License; MIT License",
+        "Name": "uvloop",
+        "Version": "0.21.0"
+      },
+      {
+        "License": "MIT License",
+        "Name": "watchfiles",
+        "Version": "0.24.0"
+      },
+      {
+        "License": "BSD License",
+        "Name": "websockets",
+        "Version": "14.1"
+      }
+    ],
+    "vefaas-python-tos-stream-unzip": [
+      {
+        "License": "MIT License",
+        "Name": "Deprecated",
+        "Version": "1.2.14"
+      },
+      {
+        "License": "MIT License",
+        "Name": "Deprecated",
+        "Version": "1.2.18"
+      },
+      {
+        "License": "Mozilla Public License 2.0 (MPL 2.0)",
+        "Name": "certifi",
+        "Version": "2023.5.7"
+      },
+      {
+        "License": "Mozilla Public License 2.0 (MPL 2.0)",
+        "Name": "certifi",
+        "Version": "2025.4.26"
+      },
+      {
+        "License": "GNU Library or Lesser General Public License (LGPL)",
+        "Name": "chardet",
+        "Version": "4.0.0"
+      },
+      {
+        "License": "MIT License",
+        "Name": "crcmod",
+        "Version": "1.7"
+      },
+      {
+        "License": "BSD License",
+        "Name": "idna",
+        "Version": "2.10"
+      },
+      {
+        "License": "BSD License; Public Domain",
+        "Name": "pycryptodome",
+        "Version": "3.22.0"
+      },
+      {
+        "License": "MIT License",
+        "Name": "pytz",
+        "Version": "2023.3"
+      },
+      {
+        "License": "MIT License",
+        "Name": "pytz",
+        "Version": "2025.2"
+      },
+      {
+        "License": "Apache Software License",
+        "Name": "requests",
+        "Version": "2.25.1"
+      },
+      {
+        "License": "MIT License",
+        "Name": "six",
+        "Version": "1.16.0"
+      },
+      {
+        "License": "MIT License",
+        "Name": "six",
+        "Version": "1.17.0"
+      },
+      {
+        "License": "MIT License",
+        "Name": "stream-inflate",
+        "Version": "0.0.42"
+      },
+      {
+        "License": "MIT License",
+        "Name": "stream-unzip",
+        "Version": "0.0.99"
+      },
+      {
+        "License": "UNKNOWN",
+        "Name": "tos",
+        "Version": "2.5.7"
+      },
+      {
+        "License": "MIT License",
+        "Name": "urllib3",
+        "Version": "1.26.16"
+      },
+      {
+        "License": "MIT License",
+        "Name": "urllib3",
+        "Version": "1.26.20"
+      },
+      {
+        "License": "BSD License",
+        "Name": "wrapt",
+        "Version": "1.15.0"
+      },
+      {
+        "License": "BSD License",
+        "Name": "wrapt",
+        "Version": "1.17.2"
+      }
+    ],
+    "vefaas-python38-tos-auto-unzip": [
+      {
+        "License": "MIT License",
+        "Name": "Deprecated",
+        "Version": "1.2.14"
+      },
+      {
+        "License": "Mozilla Public License 2.0 (MPL 2.0)",
+        "Name": "certifi",
+        "Version": "2023.5.7"
+      },
+      {
+        "License": "GNU Library or Lesser General Public License (LGPL)",
+        "Name": "chardet",
+        "Version": "4.0.0"
+      },
+      {
+        "License": "MIT License",
+        "Name": "crcmod",
+        "Version": "1.7"
+      },
+      {
+        "License": "BSD License",
+        "Name": "idna",
+        "Version": "2.10"
+      },
+      {
+        "License": "MIT License",
+        "Name": "pytz",
+        "Version": "2023.3"
+      },
+      {
+        "License": "Apache Software License",
+        "Name": "requests",
+        "Version": "2.25.1"
+      },
+      {
+        "License": "MIT License",
+        "Name": "six",
+        "Version": "1.16.0"
+      },
+      {
+        "License": "UNKNOWN",
+        "Name": "tos",
+        "Version": "2.5.7"
+      },
+      {
+        "License": "MIT License",
+        "Name": "urllib3",
+        "Version": "1.26.16"
+      },
+      {
+        "License": "BSD License",
+        "Name": "wrapt",
+        "Version": "1.15.0"
+      }
+    ]
+  },
+  "distinct_licenses": [
+    "Apache Software License",
+    "Apache Software License; MIT License",
+    "BSD License",
+    "BSD License; Public Domain",
+    "GNU Library or Lesser General Public License (LGPL)",
+    "MIT License",
+    "Mozilla Public License 2.0 (MPL 2.0)",
+    "Python Software Foundation License",
+    "UNKNOWN"
+  ]
+}

@@ -1,0 +1,14 @@
+# Python/venv
+.venv/
+__pycache__/
+
+# Local dependency dirs
+site-packages/
+.wheels/
+
+# OS/editor junk
+.DS_Store
+
+# Build artifacts
+*.zip
+

@@ -1,0 +1,12 @@
+{
+    "name": "vefaas-native-express",
+    "version": "1.0.0",
+    "description": "veFaaS Native Nodejs 运行时模板 Express",
+    "main": "index.js",
+    "scripts": {},
+    "author": "火山引擎 VeFaaS Team",
+    "dependencies": {
+      "express": "^4.21.0"
+    }
+  }
+  

@@ -1,0 +1,302 @@
+{
+  "directories": {
+    "vefaas-golang-sns-to-rmq": [
+      {
+        "Module": "github.com/apache/rocketmq-client-go/v2",
+        "License": "Apache-2.0"
+      },
+      {
+        "Module": "github.com/cloudevents/sdk-go/v2",
+        "License": "Apache-2.0"
+      },
+      {
+        "Module": "github.com/emirpasic/gods",
+        "License": "BSD-2-Clause"
+      },
+      {
+        "Module": "github.com/golang/mock/gomock",
+        "License": "Apache-2.0"
+      },
+      {
+        "Module": "github.com/google/uuid",
+        "License": "BSD-3-Clause"
+      },
+      {
+        "Module": "github.com/json-iterator/go",
+        "License": "MIT"
+      },
+      {
+        "Module": "github.com/modern-go/concurrent",
+        "License": "Apache-2.0"
+      },
+      {
+        "Module": "github.com/modern-go/reflect2",
+        "License": "Apache-2.0"
+      },
+      {
+        "Module": "github.com/patrickmn/go-cache",
+        "License": "MIT"
+      },
+      {
+        "Module": "github.com/pkg/errors",
+        "License": "BSD-2-Clause"
+      },
+      {
+        "Module": "github.com/sirupsen/logrus",
+        "License": "MIT"
+      },
+      {
+        "Module": "github.com/tidwall/gjson",
+        "License": "MIT"
+      },
+      {
+        "Module": "github.com/tidwall/match",
+        "License": "MIT"
+      },
+      {
+        "Module": "github.com/tidwall/pretty",
+        "License": "MIT"
+      },
+      {
+        "Module": "github.com/volcengine/vefaas-golang-runtime",
+        "License": "Apache-2.0"
+      },
+      {
+        "Module": "go.uber.org/atomic",
+        "License": "MIT"
+      },
+      {
+        "Module": "go.uber.org/multierr",
+        "License": "MIT"
+      },
+      {
+        "Module": "go.uber.org/zap",
+        "License": "MIT"
+      },
+      {
+        "Module": "golang.org/x/crypto/ssh/terminal",
+        "License": "BSD-3-Clause"
+      },
+      {
+        "Module": "golang.org/x/sys",
+        "License": "BSD-3-Clause"
+      },
+      {
+        "Module": "gopkg.in/natefinch/lumberjack.v2",
+        "License": "MIT"
+      },
+      {
+        "Module": "stathat.com/c/consistent",
+        "License": "MIT"
+      },
+      {
+        "Module": "vefaas-golang-sns-to-rmq",
+        "License": "Unknown"
+      },
+      {
+        "Module": "vefaas-golang-sns-to-rmq/handlers",
+        "License": "Unknown"
+      }
+    ],
+    "vefaas-native-microservice-kafka-to-es-exporter": [
+      {
+        "Module": "github.com/confluentinc/confluent-kafka-go/kafka",
+        "License": "Apache-2.0"
+      },
+      {
+        "Module": "github.com/confluentinc/confluent-kafka-go/kafka/librdkafka_vendor",
+        "License": "MIT"
+      },
+      {
+        "Module": "kafka-to-es",
+        "License": "Unknown"
+      },
+      {
+        "Module": "kafka-to-es/es",
+        "License": "Unknown"
+      },
+      {
+        "Module": "kafka-to-es/kafka",
+        "License": "Unknown"
+      }
+    ],
+    "vefaas-golang-tos-trigger": [
+      {
+        "Module": "github.com/cloudevents/sdk-go/v2",
+        "License": "Apache-2.0"
+      },
+      {
+        "Module": "github.com/google/uuid",
+        "License": "BSD-3-Clause"
+      },
+      {
+        "Module": "github.com/json-iterator/go",
+        "License": "MIT"
+      },
+      {
+        "Module": "github.com/modern-go/concurrent",
+        "License": "Apache-2.0"
+      },
+      {
+        "Module": "github.com/modern-go/reflect2",
+        "License": "Apache-2.0"
+      },
+      {
+        "Module": "github.com/volcengine/vefaas-golang-runtime",
+        "License": "Apache-2.0"
+      },
+      {
+        "Module": "go.uber.org/atomic",
+        "License": "MIT"
+      },
+      {
+        "Module": "go.uber.org/multierr",
+        "License": "MIT"
+      },
+      {
+        "Module": "go.uber.org/zap",
+        "License": "MIT"
+      },
+      {
+        "Module": "vefaas-golang-tos-trigger",
+        "License": "Unknown"
+      },
+      {
+        "Module": "vefaas-golang-tos-trigger/handlers",
+        "License": "Unknown"
+      }
+    ],
+    "vefaas-golang-default": [
+      {
+        "Module": "github.com/cloudevents/sdk-go/v2",
+        "License": "Apache-2.0"
+      },
+      {
+        "Module": "github.com/google/uuid",
+        "License": "BSD-3-Clause"
+      },
+      {
+        "Module": "github.com/json-iterator/go",
+        "License": "MIT"
+      },
+      {
+        "Module": "github.com/modern-go/concurrent",
+        "License": "Apache-2.0"
+      },
+      {
+        "Module": "github.com/modern-go/reflect2",
+        "License": "Apache-2.0"
+      },
+      {
+        "Module": "github.com/volcengine/vefaas-golang-runtime",
+        "License": "Apache-2.0"
+      },
+      {
+        "Module": "go.uber.org/atomic",
+        "License": "MIT"
+      },
+      {
+        "Module": "go.uber.org/multierr",
+        "License": "MIT"
+      },
+      {
+        "Module": "go.uber.org/zap",
+        "License": "MIT"
+      },
+      {
+        "Module": "vefaas-golang-default",
+        "License": "Unknown"
+      },
+      {
+        "Module": "vefaas-golang-default/handlers",
+        "License": "Unknown"
+      }
+    ],
+    "vefaas-native-default": [
+      {
+        "Module": "github.com/alioygur/gores",
+        "License": "Apache-2.0"
+      },
+      {
+        "Module": "github.com/gorilla/mux",
+        "License": "BSD-3-Clause"
+      },
+      {
+        "Module": "vefaas-native-default",
+        "License": "Unknown"
+      },
+      {
+        "Module": "vefaas-native-default/server",
+        "License": "Unknown"
+      }
+    ],
+    "vefaas-golang-cdn-refresh-preload": [
+      {
+        "Module": "github.com/cenkalti/backoff/v4",
+        "License": "MIT"
+      },
+      {
+        "Module": "github.com/cloudevents/sdk-go/v2",
+        "License": "Apache-2.0"
+      },
+      {
+        "Module": "github.com/google/uuid",
+        "License": "BSD-3-Clause"
+      },
+      {
+        "Module": "github.com/json-iterator/go",
+        "License": "MIT"
+      },
+      {
+        "Module": "github.com/modern-go/concurrent",
+        "License": "Apache-2.0"
+      },
+      {
+        "Module": "github.com/modern-go/reflect2",
+        "License": "Apache-2.0"
+      },
+      {
+        "Module": "github.com/volcengine/vefaas-golang-runtime",
+        "License": "Apache-2.0"
+      },
+      {
+        "Module": "github.com/volcengine/volc-sdk-golang",
+        "License": "Apache-2.0"
+      },
+      {
+        "Module": "go.uber.org/atomic",
+        "License": "MIT"
+      },
+      {
+        "Module": "go.uber.org/multierr",
+        "License": "MIT"
+      },
+      {
+        "Module": "go.uber.org/zap",
+        "License": "MIT"
+      },
+      {
+        "Module": "golang.org/x/net",
+        "License": "BSD-3-Clause"
+      },
+      {
+        "Module": "golang.org/x/text",
+        "License": "BSD-3-Clause"
+      },
+      {
+        "Module": "vefaas-golang-cdn-refresh-preload-trigger",
+        "License": "Unknown"
+      },
+      {
+        "Module": "vefaas-golang-cdn-refresh-preload-trigger/handlers",
+        "License": "Unknown"
+      }
+    ]
+  },
+  "distinct_licenses": [
+    "Apache-2.0",
+    "BSD-2-Clause",
+    "BSD-3-Clause",
+    "MIT"
+  ]
+}

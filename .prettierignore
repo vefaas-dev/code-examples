@@ -1,0 +1,7 @@
+node_modules
+**/dist
+**/site-packages
+main
+.DS_Store
+.idea/
+**/.venv/

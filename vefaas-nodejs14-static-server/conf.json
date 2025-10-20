@@ -1,0 +1,6 @@
+{
+  "root": "./static",
+  "index": "index.html",
+  "notfound": "404.html",
+  "maxage": 604800
+}

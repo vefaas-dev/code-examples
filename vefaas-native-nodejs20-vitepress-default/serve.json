@@ -1,0 +1,4 @@
+{
+  "public": ".vitepress/dist",
+  "cleanUrls": true
+}

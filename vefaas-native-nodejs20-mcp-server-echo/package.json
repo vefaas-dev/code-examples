@@ -1,0 +1,21 @@
+{
+  "name": "vefaas-native-nodejs20-mcp-server-echo",
+  "version": "0.1.0",
+  "description": "veFaaS Node.js 20 MCP Server (echo/hello)",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "echo-mcp-server": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "fastmcp": "^3.17.0",
+    "zod": "^3.23.8"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
