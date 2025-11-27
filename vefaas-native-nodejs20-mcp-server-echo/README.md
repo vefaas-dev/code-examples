@@ -1,39 +1,38 @@
-# Node.js MCP Server（veFaaS 模板 · Echo）
+# Node.js MCP Server (veFaaS Template · Echo)
 
-一个可直接部署到 veFaaS 的 Node.js 20 MCP Server 模板，内置最基础的 echo/hello 工具
+A Node.js 20 MCP Server template that can be directly deployed to veFaaS, with built-in basic echo/hello tools.
 
-## 功能
-- 工具：
+## Features
+- Tools:
   - `hello(name: string)` → `Hello, ${name}!`
-  - `echo(text: string)` → 原样返回 `text`
-- 传输：Streamable HTTP（HTTP Transport）。
+  - `echo(text: string)` → Returns `text` as-is
+- Transport: Streamable HTTP (HTTP Transport)
 
-## 环境要求
+## Requirements
 - Node.js 20
-- veFaaS（Linux/Debian）
+- veFaaS (Linux/Debian)
 
-## 环境变量（默认值）
+## Environment Variables (Defaults)
 - `MCP_SERVER_HOST=0.0.0.0`
 - `MCP_SERVER_PORT=8000`
 - `STREAMABLE_HTTP_PATH=/mcp`
 
-## 本地使用
-- 安装依赖：`npm install`
-- HTTP（streamable-http）：`npm start`
-  - 启动日志应类似：`Echo MCP Server (HTTP) listening at http://0.0.0.0:8000/mcp`
+## Local Usage
+- Install dependencies: `npm install`
+- HTTP (streamable-http): `npm start`
+  - Startup logs should show: `Echo MCP Server (HTTP) listening at http://0.0.0.0:8000/mcp`
 
-## 部署到 veFaaS
-1) 本地准备（仅源代码 + package.json）
-- `./zip.sh`（打包且排除 `node_modules/`）
+## Deploy to veFaaS
+1) Local preparation (source code + package.json only)
+- `./zip.sh` (package and exclude `node_modules/`)
 
-2) 控制台操作
-- 上传 zip 包
-- 点击“安装依赖”（平台根据 `package.json` 安装 `dependencies`）
-- 部署函数（平台通过 `run.sh` 启动 `node src/index.js`）
-- 查看日志，确认启动成功（应看到 http 启动日志 `Echo MCP Server (HTTP) listening at http://...`，或回退至 stdio）
+2) Console operations
+- Upload zip package
+- Click "Install Dependencies" (platform installs `dependencies` from `package.json`)
+- Deploy function (platform starts via `run.sh` running `node src/index.js`)
+- Check logs to confirm successful startup (should see HTTP startup log `Echo MCP Server (HTTP) listening at http://...`, or fallback to stdio)
 
-## 目录与脚本
-- `src/index.js`：MCP Server 实现（echo/hello）
-- `run.sh`：启动入口
-- `zip.sh`：打包脚本（排除 `node_modules/`）
-
+## Directory and Scripts
+- `src/index.js`: MCP Server implementation (echo/hello)
+- `run.sh`: Startup entry point
+- `zip.sh`: Packaging script (excludes `node_modules/`)

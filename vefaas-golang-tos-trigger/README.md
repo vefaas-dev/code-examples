@@ -1,12 +1,12 @@
-# Golang TOS trigger 函数模板
+# Golang TOS Trigger Function Template
 
-本仓库提供可直接部署到 veFaaS 的 Golang TOS trigger 函数模板。
+This repository provides a Golang TOS trigger function template that can be directly deployed to veFaaS.
 
-## 运行环境
-- veFaaS（Linux/Debian，Golang 环境）
-- 平台调用函数入口 `handler`
+## Runtime Environment
+- veFaaS (Linux/Debian, Golang environment)
+- The platform invokes the function entry point `handler`
 
-## 部署到 veFaaS
-- 生成部署包：执行 `./build_and_zip.sh`
-- 上传部署包到 veFaaS 控制台
-- 部署函数，查看日志确认启动成功
+## Deploy to veFaaS
+- Generate deployment package: Run `./build_and_zip.sh`
+- Upload the deployment package to the veFaaS console
+- Deploy the function and check the logs to confirm successful startup

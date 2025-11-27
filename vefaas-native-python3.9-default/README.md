@@ -1,30 +1,30 @@
-# Native Python 3.9 函数模板
+# Native Python 3.9 Function Template
 
-本仓库提供可直接部署到 veFaaS 的 Native Python 3.9 模板。推荐流程：
-- 本地开发用 venv
-- 部署时由 veFaaS 平台基于 `requirements.txt` 安装依赖
+This repository provides a Native Python 3.9 template that can be directly deployed to veFaaS. Recommended workflow:
+- Use venv for local development
+- Let the veFaaS platform install dependencies based on `requirements.txt` during deployment
 
-## 运行环境
-- veFaaS（Linux/Debian，Python 3.9）
-- 服务监听 `0.0.0.0:8000`
-- 平台通过 `run.sh` 启动
+## Runtime Environment
+- veFaaS (Linux/Debian, Python 3.9)
+- Service listens on `0.0.0.0:8000`
+- Platform starts via `run.sh`
 
-## 本地开发（基于 venv）
-- 在项目根目录执行：
+## Local Development (Based on venv)
+- Execute in the project root directory:
   - `python -m venv .venv`
   - `source .venv/bin/activate`
   - `python -m pip install -U pip`
   - `pip install -r requirements.txt`
-- 运行：
-  - `python main.py` 或 `./run.sh`
+- Run:
+  - `python main.py` or `./run.sh`
 
-## 部署到 veFaaS（平台安装依赖）
-- 确认 `requirements.txt` 已包含完整依赖（包含可能的原生扩展包，如 `fastapi`、`uvicorn` 等）
-- 生成部署包：`./zip.sh`
-- 上传部署包到 veFaaS 控制台
-- 在控制台点击“安装依赖”，平台会在 Linux Python 3.9 环境中将依赖安装到运行目录
-- 部署函数，查看日志确认启动成功
+## Deploy to veFaaS (Platform Dependency Installation)
+- Ensure `requirements.txt` contains all dependencies (including possible native extension packages like `fastapi`, `uvicorn`, etc.)
+- Generate deployment package: `./zip.sh`
+- Upload the deployment package to the veFaaS console
+- Click "Install Dependencies" in the console. The platform will install the dependencies in the Linux Python 3.9 environment to the runtime directory
+- Deploy the function and check the logs to confirm successful startup
 
-## 关键文件
-- `run.sh`：启动入口（会在本地自动激活 `.venv`）
-- `zip.sh`：打包脚本（排除 `.venv/`、`site-packages/`、`.wheels/`）
+## Key Files
+- `run.sh`: Startup entry point (automatically activates `.venv` locally)
+- `zip.sh`: Packaging script (excludes `.venv/`, `site-packages/`, `.wheels/`)
