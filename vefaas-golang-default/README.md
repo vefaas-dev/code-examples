@@ -1,12 +1,12 @@
-# Golang 函数模板
+# Golang Function Template
 
-本仓库提供可直接部署到 veFaaS 的 Golang 函数模板。
+This repository provides a Golang function template that can be directly deployed to veFaaS.
 
-## 运行环境
-- veFaaS（Linux/Debian，Golang 环境）
-- 平台运行 main 二进制（如何生成适用于 Linux 系统的可执行文件，请参考 build.sh）
+## Runtime Environment
+- veFaaS (Linux/Debian, Golang environment)
+- The platform runs the main binary (refer to build.sh for how to generate an executable file for Linux systems)
 
-## 部署到 veFaaS
-- 生成部署包：执行 `./build_and_zip.sh`
-- 上传部署包到 veFaaS 控制台
-- 部署函数，查看日志确认启动成功
+## Deploy to veFaaS
+- Generate deployment package: Run `./build_and_zip.sh`
+- Upload the deployment package to the veFaaS console
+- Deploy the function and check the logs to confirm successful startup

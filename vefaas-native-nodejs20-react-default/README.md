@@ -1,62 +1,61 @@
 # React + TypeScript + Vite
 
-这个模板提供了在 Vite 中使用 React 的最小化配置，支持热模块替换（HMR）和一些 ESLint 规则。
+This template provides a minimal setup to get React working in Vite with Hot Module Replacement (HMR) and some ESLint rules.
 
-目前有两个官方插件可用：
+Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) 使用 [Babel](https://babeljs.io/) 实现快速刷新
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) 使用 [SWC](https://swc.rs/) 实现快速刷新
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## 项目结构
+## Project Structure
 
-项目采用简洁的结构：
+The project uses a simple structure:
 
 ```
-├── src/           # React 源代码目录
-├── public/        # 静态资源目录
-└── server/        # 函数托管服务（使用 serve-handler 托管构建后的静态资源）
+├── src/           # React source code directory
+├── public/        # Static assets directory
+└── server/        # Function hosting service (uses serve-handler to host built static assets)
 ```
 
-### 目录说明
-- **src/** - React 应用源码，包含组件、样式等
-- **public/** - 公共静态资源，如图片、图标等
-- **server/** - 函数服务入口，使用 serve-handler 托管构建后的文件
+### Directory Description
+- **src/** - React application source code, including components, styles, etc.
+- **public/** - Public static assets such as images, icons, etc.
+- **server/** - Function service entry point, uses serve-handler to host built files
 
-## 扩展 ESLint 配置
+## Expanding the ESLint Configuration
 
-如果你正在开发生产级应用，建议更新配置以启用类型感知的 lint 规则。
+If you are developing a production application, it's recommended to update the configuration to enable type-aware lint rules.
 
-# 部署到函数服务
+# Deploy to Function Service
 
-## 开发、构建和部署
+## Development, Build, and Deployment
 
-### 1. 开发阶段
+### 1. Development Phase
 
-正常开发流程：
+Normal development workflow:
 ```bash
-# 安装依赖
+# Install dependencies
 npm install
 
-# 启动开发服务器
+# Start development server
 npm run dev
 ```
 
-### 2. 构建阶段
+### 2. Build Phase
 
-开发完成后，构建生产版本：
+After development is complete, build the production version:
 ```bash
-# 运行构建脚本编译应用
+# Run build script to compile the application
 ./build.sh
 ```
 
-### 3. 本地测试
+### 3. Local Testing
 
-构建完成后，本地可通过执行 run.sh 测试：
+After the build is complete, test locally by running run.sh:
 ```bash
 ./run.sh
 ```
 
-### 4. 部署到 FaaS
+### 4. Deploy to FaaS
 
-直接将这个代码包上传到 FaaS 平台即可
-
+Simply upload this code package to the FaaS platform

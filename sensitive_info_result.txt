@@ -1,7 +1,0 @@
-./vefaas-native-nodejs20-mcp-server-echo/README.md, line, 21 have some sensitive information: npm install`
-./vefaas-golang-tos-trigger/main, line, 16753 have some sensitive information: aKappaSigmaOmegaalphagammadeltathetakappasigmaomegaupsihprimePrimeolinefra
-./vefaas-golang-tos-trigger/main, line, 16812 have some sensitive information: 6ba7b810-9dad-11d1-80b4-00c04fd430c8
-./vefaas-native-nodejs20-default/static/index.html, line, 28 have some sensitive information: npm install express --save</div>
-./vefaas-golang-default/main, line, 16649 have some sensitive information: aKappaSigmaOmegaalphagammadeltathetakappasigmaomegaupsihprimePrimeolinefra
-./vefaas-golang-default/main, line, 16708 have some sensitive information: 6ba7b810-9dad-11d1-80b4-00c04fd430c8
-./vefaas-native-nodejs20-nestjs-default/README.md, line, 67 have some sensitive information: npm install -g @nestjs/mau

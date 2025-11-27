@@ -1,4 +1,4 @@
 # What
-ByteFaaS Native Java8 示例代码
+ByteFaaS Native Java8 example code
 
-项目采用 SpringBoot 启动，可以正常处理 http/timer/kafka/rocketmq 请求
+The project uses SpringBoot for startup and can properly handle http/timer/kafka/rocketmq requests

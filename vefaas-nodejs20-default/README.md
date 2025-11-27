@@ -1,14 +1,14 @@
-# Node.js 20 函数模板
+# Node.js 20 Function Template
 
-本仓库提供可直接部署到 veFaaS 的 Node.js 函数模板。
+This repository provides a Node.js function template that can be directly deployed to veFaaS.
 
-## 运行环境
-- veFaaS（Linux/Debian，Node.js 20 环境）
-- 通过`exports.handler(event, context)` 暴露 handler 作为平台的调用入口
+## Runtime Environment
+- veFaaS (Linux/Debian, Node.js 20 environment)
+- Expose handler through `exports.handler(event, context)` as the platform's entry point
 
-## 部署到 veFaaS（平台安装依赖）
-- 确认 `package.json` 已包含所需的依赖
-- 生成部署包：执行 `./zip.sh`
-- 上传部署包到 veFaaS 控制台
-- 在控制台，如果使用了依赖，点击“安装依赖”，平台会在 Node.js 20 环境中将依赖安装到运行目录
-- 部署函数，查看日志确认启动成功
+## Deploy to veFaaS (Platform Dependency Installation)
+- Ensure `package.json` includes the required dependencies
+- Generate deployment package: Run `./zip.sh`
+- Upload the deployment package to the veFaaS console
+- In the console, if dependencies are used, click "Install Dependencies". The platform will install the dependencies in the Node.js 20 environment to the runtime directory
+- Deploy the function and check the logs to confirm successful startup

@@ -1,55 +1,54 @@
 # Vue 3 + TypeScript + Vite
 
-这个模板可以帮助你快速开始使用 Vue 3 和 TypeScript 在 Vite 中进行开发。该模板使用了 Vue 3 的 `<script setup>` 单文件组件，请查看 [script setup 文档](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) 了解更多信息。
+This template helps you get started quickly with Vue 3 and TypeScript in Vite. The template uses Vue 3's `<script setup>` Single File Components. Check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
-了解更多关于推荐的项目设置和 IDE 支持，请参考 [Vue 文档 TypeScript 指南](https://vuejs.org/guide/typescript/overview.html#project-setup)。
+For more information on recommended project setup and IDE support, refer to the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
 
-## 项目结构
+## Project Structure
 
-项目采用简洁的结构：
+The project uses a simple structure:
 
 ```
-├── src/           # Vue 源代码目录
-├── public/        # 静态资源目录
-└── server/        # 函数托管服务（使用 serve-handler 托管构建后的静态资源）
+├── src/           # Vue source code directory
+├── public/        # Static assets directory
+└── server/        # Function hosting service (uses serve-handler to host built static assets)
 ```
 
-### 目录说明
-- **src/** - Vue 应用源码，包含组件、样式等
-- **public/** - 公共静态资源，如图片、图标等
-- **server/** - 函数服务入口，使用 serve-handler 托管构建后的文件
+### Directory Description
+- **src/** - Vue application source code, including components, styles, etc.
+- **public/** - Public static assets such as images, icons, etc.
+- **server/** - Function service entry point, uses serve-handler to host built files
 
-# 部署到函数服务
+# Deploy to Function Service
 
-## 开发、构建和部署
+## Development, Build, and Deployment
 
-### 1. 开发阶段
+### 1. Development Phase
 
-正常开发流程：
+Normal development workflow:
 ```bash
-# 安装依赖
+# Install dependencies
 npm install
 
-# 启动开发服务器
+# Start development server
 npm run dev
 ```
 
-### 2. 构建阶段
+### 2. Build Phase
 
-开发完成后，构建生产版本：
+After development is complete, build the production version:
 ```bash
-# 运行构建脚本编译应用
+# Run build script to compile the application
 ./build.sh
 ```
 
-### 3. 本地测试
+### 3. Local Testing
 
-构建完成后，本地可通过执行 run.sh 测试：
+After the build is complete, test locally by running run.sh:
 ```bash
 ./run.sh
 ```
 
-### 4. 部署到 FaaS
+### 4. Deploy to FaaS
 
-直接将这个代码包上传到 FaaS 平台即可
-
+Simply upload this code package to the FaaS platform
