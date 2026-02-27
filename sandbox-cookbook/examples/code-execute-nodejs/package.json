@@ -1,0 +1,11 @@
+{
+  "name": "code-execute-nodejs",
+  "version": "1.0.0",
+  "description": "Code Sandbox 代码执行示例 - Node.js",
+  "main": "index.js",
+  "scripts": { "start": "node index.js" },
+  "dependencies": {
+    "@volcengine/openapi": "^1.35.0",
+    "dotenv": "^16.3.0"
+  }
+}
