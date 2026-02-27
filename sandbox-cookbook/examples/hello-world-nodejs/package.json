@@ -1,0 +1,13 @@
+{
+  "name": "hello-world-nodejs",
+  "version": "1.0.0",
+  "description": "veFaaS Sandbox 快速上手 - Node.js HTTP API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@volcengine/openapi": "^1.35.0",
+    "dotenv": "^16.3.0"
+  }
+}

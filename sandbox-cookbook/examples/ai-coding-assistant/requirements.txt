@@ -1,0 +1,4 @@
+volcengine-python-sdk
+httpx
+python-dotenv
+openai
