@@ -1,0 +1,27 @@
+{
+  "name": "mastra-sandbox-agent",
+  "version": "2.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "mastra dev",
+    "build": "mastra build",
+    "start": "mastra start"
+  },
+  "keywords": ["mastra", "ai-agent", "sandbox", "browser-automation"],
+  "description": "A general-purpose AI agent built with Mastra, with sandbox execution and browser automation capabilities.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "dependencies": {
+    "@ai-sdk/openai-compatible": "^1.0.28",
+    "@mastra/core": "1.8.0",
+    "@volcengine/openapi": "^1.36.0",
+    "zod": "^3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "mastra": "1.3.5",
+    "typescript": "^5.9.2"
+  }
+}

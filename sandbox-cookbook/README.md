@@ -34,6 +34,7 @@ Sample code and integration guide for veFaaS Cloud Sandbox. Get started quickly 
 | Example | Python | Node.js |
 |---------|--------|---------|
 | AI Coding Assistant (LLM + Sandbox) | [ai-coding-assistant](./examples/ai-coding-assistant) | — |
+| General-purpose AI Agent (Mastra + Sandbox) | — | [aio-agent-mastra](./examples/aio-agent-mastra) |
 
 ## 1. Overview
 

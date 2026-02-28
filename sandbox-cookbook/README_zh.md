@@ -34,6 +34,7 @@ veFaaS 云沙箱的示例代码和接入指南。帮助您快速理解和使用�
 | 示例 | Python | Node.js |
 |------|--------|---------|
 | AI 编程助手（LLM + Sandbox） | [ai-coding-assistant](./examples/ai-coding-assistant) | — |
+| 通用 AI Agent（Mastra + Sandbox） | — | [aio-agent-mastra](./examples/aio-agent-mastra) |
 
 ## 1. 概述与核心概念
 
