@@ -4,6 +4,10 @@ A general-purpose AI agent, running tasks inside a Volcengine VeFaaS sandbox.
 
 > **Live Demo** — Try it instantly in [AIO Sandbox Playground](https://console.volcengine.com/vefaas/region:vefaas+cn-beijing/market/aio-sandbox)
 
+
+> **Tip**: For more details about the All-in-one Sandbox API and MCP tools, refer to the [All-in-one Sandbox Documentation](https://sandbox.agent-infra.com/) and the [GitHub repository](https://github.com/agent-infra/sandbox).
+
+
 ## What It Does
 
 - Receives user tasks via the [Mastra](https://mastra.ai/) agent interface
@@ -51,6 +55,8 @@ pnpm install
 ### 2. Create a Sandbox application
 
 If you don't have one yet, [create an All-in-one Sandbox application](https://console.volcengine.com/vefaas/region:vefaas+cn-beijing/sandbox/create?imageGroup=All-in-one&quickStart=true&projectName=default) in the VeFaaS console and note the **Function ID** and **Endpoint**.
+
+> 📖 See the full [Prerequisites](../../README.md#2-prerequisites) guide for details.
 
 ### 3. Configure environment
 
